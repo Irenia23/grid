@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <circle id="Oval-3" fill="#535D65" cx="34" cy="34" r="34"></circle>
+            <text id="68" font-family=".SFNSDisplay, .SF NS Display" font-size="27" font-weight="normal" fill="#FFFFFF">
+                <tspan x="13" y="41">68</tspan>
+            </text>
+            <text id="%" font-family=".AppleSystemUIFont" font-size="17" font-weight="normal" fill="#FFFFFF">
+                <tspan x="44" y="35">%</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

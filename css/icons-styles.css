@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+
+/*
+Configuración por defecto de los todos los íconos
+------------------------------------------------------
+*/
+.icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+
+/*
+Ícono del Logo cabecera
+------------------------------------------------------
+*/
+.icon-m{
+  width: 72px;
+  height: 72px;
+  vertical-align: middle;
+  font-family: "STHeitiTC-Medium", "Heiti TC", "Open Sans";
+}
+
+
+/*
+Ícono porcentaje sección general
+------------------------------------------------------
+*/
+.icon-score{
+  border: 1px solid;
+  width: 68px;
+  height: 68px;
+}
+
+
+/*
+Ícono estrella de puntuación sección ítems relacionados
+--------------------------------------------------------
+*/
+.icon-star{
+  width: 14px;
+  height: 14px;
+  margin-left: .5rem;
+}
+
+
+/*
+Íconos de Redes Sociales
+------------------------------------------------------
+*/
+.icon-youtube, .icon-instagram, .icon-pinterest, .icon-twitter, .icon-facebook{
+  width: 61px;
+  height: 61px;
+  vertical-align: middle;
+}

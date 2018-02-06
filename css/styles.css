@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,300");
+
+
+/*
+Cuerpo de la página
+-------------------------------------------------------------------------------------------------------------------------
+*/
+
+body, html{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Helvetica Neue";
+  font-variant: normal;
+  background: #F4F4F4;
+  font-size: 16px;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+/*div{
+  border: 1px solid;
+}*/
+
+.section {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.section--small {
+  padding-top: 15px;
+  padding-bottom: 15px; 
+}
+
+.section--large {
+  padding-top: 45px;
+  padding-bottom: 45px; 
+}
+
+
+/*
+Contenedor principal (main-wrapper)
+-------------------------------------------------------------------------------------------------------------------------
+*/
+
+.main-wrapper{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: auto;
+}
+
+.general-wrapper__main {
+  padding-top: 1px;
+  max-width: 960px;
+  margin: auto;
+}
+
+
+/*
+Cabecera de la página (header)
+-------------------------------------------------------------------------------------------------------------------------
+*/
+
+.header{
+  width: 100%;
+}
+
+.header__dark-back{
+  background: #081C24;
+  padding: 1.5em 0;
+}
+
+.header__logo-section{
+  max-width: 960px;
+  margin: auto;
+}
+
+.header__slogan{
+  color: #FFF;
+  vertical-align: middle;
+  line-height: 3rem;
+  font-size: .9rem;
+  margin-left: 1.2rem;
+}
+
+
+/*
+Contenido general (general-wrapper)
+-------------------------------------------------------------------------------------------------------------------------
+*/
+
+.general-wrapper{
+  background: linear-gradient(#6FA29C, #697977);
+  color: #FFF;
+}
+
+.general-wrapper__title{
+  font-weight: 100;
+  font-size: 2.2rem;
+  margin-top: 0;
+}
+
+.general-wrapper__descrip{
+  margin: auto;
+  font-size: .95rem;
+  margin-bottom: 2rem;
+}
+
+.general-wrapper__img{
+  vertical-align: middle; /*Un buen truco para eliminar el espacio que generan las imágenes*/
+  width: 100%;
+}
+.score {
+  width: 4.5rem;
+  height: 4.5rem;
+  font-size: 1.4em;
+  background-color: #535D65;
+  line-height: 4.5rem;
+  text-align: center;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.score-text{
+  width: 3rem;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.2rem;
+  padding-bottom: .8rem;
+  font-size: 1.05rem;
+}
+
+.subtitles-size{
+  font-size: 1rem;
+}
+
+.general-wrapper__descrip--smaller{
+  font-size: .7rem;
+}
+
+/*
+Sección de Elenco Principal (cast-wrapper)
+-------------------------------------------------------------------------------------------------------------------------
+*/
+
+.cast-wrapper{
+  margin-bottom: 6em;
+}
+
+.cast-wrapper__photo{
+  width: 100%;
+  padding: 6.2em 0;
+  background: #9EB0B9;
+  border-radius: 2px 2px 0 0;
+}
+
+.cast-wrapper__names{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 3px 14px 8px;
+  background: #FFF;
+  font-size: .85rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.04);
+  border-radius: 2px;
+  font-weight: 100;
+}
+
+.cast-wrapper__title{
+  margin: 2em 0 1.5em;
+}
+
+
+/*
+Sección de Datos (data-wrapper)
+-------------------------------------------------------------------------------------------------------------------------
+*/
+
+.data-wrapper{
+  margin-bottom: 3rem;
+}
+
+.data-wrapper__table{
+  width: 100%;
+  margin-bottom: 3rem;
+  font-size: .8rem;
+}
+
+.data-wrapper__genero, .wrapper__title, .data-wrapper__keyword{
+  margin-bottom: .95em;
+}
+
+.data-wrapper__gen, .data-wrapper__word{
+  padding: .3rem .85rem;
+  background: #50E3C2;
+  border-radius: 5rem;
+  font-size: .8rem;
+}
+
+.gen-wrapper{
+  display: block;
+  margin-bottom: 1.8em;
+}
+
+.data-wrapper__title{
+  margin-bottom: 1.5em;
+}
+
+.cast-wrapper__title, .data-wrapper__title{
+  font-size: 1.3rem;
+}
+
+.data-wrapper__table th{
+  text-align: left;
+  font-weight: bolder;
+}
+
+
+/*
+Sección de artículos relacionados
+-------------------------------------------------------------------------------------------------------------------------
+*/
+.related-items__img1, .related-items__img2{
+  padding: 151px 0;
+  background: #34606F;
+  border-radius: 2px 0 0 2px;
+}
+
+.related-items__img1 {
+  background: #34606F;
+}
+
+.related-items__img2 {
+  background: #9E90A5;
+}
+
+.related-items__descrip{
+  font-size: .9rem;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.04);
+  border-radius: 2px;
+}
+
+.descrip-content {
+  padding: 0 1.7em;
+  position: relative;
+}
+
+.related-items__link{
+  color: #000;
+  font-size: .8rem;
+}
+
+.related-items__link-div{
+  border-top: 1px solid #EFEFEF;
+  display: flex;
+  align-items: center;
+  padding: 1.1rem 0;
+}
+
+.related-items__star-div{
+  position: absolute; right: 11%; top: 3%;
+}
+
+.related-items__p{
+  font-size: .8rem;
+}
+
+.p--margin{
+  margin-bottom: 3.95em;
+}
+
+/*
+Sección de anuncios
+-------------------------------------------------------------------------------------------------------------------------
+*/
+
+.adds__title{
+  font-size: .9rem;
+}
+
+.adds-wrapper{
+  width: 100%;
+  padding:  3.34em 0;
+  background: #000;
+}
+
+.adds-padding{
+  margin-top: 0;
+  padding: 2em 0px 3.5em;
+}
+
+
+/*
+Pie de página (footer)
+-------------------------------------------------------------------------------------------------------------------------
+*/
+.footer{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.footer__social-media{
+  text-align: center;
+}
+
+.footer__light-color{
+  background: #535D65;
+}
+
+.footer__dark-color{
+  background: #4C5358;
+}
+
+.footer__contact{
+  padding: 1.5em 0 2em;
+}
+
+.footer__terms{
+  padding-bottom: 1.5em;
+}
+
+.footer__media-list{
+  display: inline-block;
+  margin-top: 3.8em;
+  margin-bottom: 2em; 
+}
+
+.footer__media-item{
+  display: inline-block;
+}
+
+.follow{
+  color: #FFF;
+  margin-right: 1.5em;
+}
+
+.footer__contact, .footer__terms{
+  text-align: center;
+}
+
+.footer__contact-list, .footer__terms-list{
+  margin: 0;
+}
+
+.footer__contact-item{
+  display: inline-block;
+}
+
+.footer__contact-item a{
+  color: #FFF;
+  font-size: .8rem;
+}
+
+.footer__terms-item{
+  display: inline-block;
+}
+
+.footer__terms-item a{
+  font-size: .7rem;
+  color: #FFF;
+}
+
+.footer__terms-item a:hover, .footer__contact-item a:hover{
+  text-decoration: underline;
+}
+
+.separator{
+  color: #FFF;
+  font-size: .8rem;
+}
+
+
+
+
+
