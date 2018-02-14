@@ -8,55 +8,59 @@
   </head>
   <body>
 
-    
-    
-    <div class="main-wrapper">
-      
+
       <!--
       CABECERA DE LA PÁGINA
       _________________________________________________________________________________________________________________
       -->
+      
       <header class="header">
-            <div class="header__logo-section">
+            <div class="wrapper header__logo-section">
               <svg class="icon icon-m"><use xlink:href="#icon-m"></use></svg><span class="header__slogan">Descubre</span>
             </div>
-      </header> 
+      </header>
 
+      
       <!--
       SECCIÓN GENERAL
       _________________________________________________________________________________________________________________
       -->
-      <div class="general section">
-        <div class="general__main">
-          <div class="grid">
-            <div class="grid__item one-third palm--one-whole">
-              <img class="general__img" src="images/general-img.png">
-            </div><div class="grid__item two-thirds palm--one-whole">
-              <h1 class="general__title">¡Canta! (2016)</h1>
-              <div class="general__score display-inline">68%</div>
-              <div class="general__score-text display-inline">User Score</div>
 
-              <h2 class="general__subtitles">General</h2>
-              <p class="general__description">             
-              Buster es un koala que posee y dirige un gran teatro que está pasando por un momento muy delicado. Para arreglar la situación y recuperar la gloria perdida, organizará el concurso de canto más grande del mundo, que atrae a multitud de animales que buscan convertirse en estrellas. Entre ellos encontramos a un bromista y arrogante ratón, una elefanta adolescente que tiene pánico escénico, una cerda que padece estrés debido a su camada de 25 lechones, un joven gorila proveniente de una familia de gánsteres y una puercoespín que tiene su propia banda de rock alternativo.</p>
+      <div class="general--container">
+            
+          <div class="general wrapper">
 
-              <h2 class="general__subtitles">Equipo Destacado</h2>
-              <p class="general__description--small">Garth Jennings<br/>
-                Director, Writer
-              </p>
-            </div>
+              <div class="general__wrapper-img">
+                <img class="general__img" src="images/general-img.png">
+              </div>
+
+              <div class="general__content">
+                  <h1 class="general__title">¡Canta! (2016)</h1>
+                  <div class="general__score display-inline">68%</div>
+                  <div class="general__score-text display-inline">User Score</div>
+
+                  <h2 class="general__subtitles">General</h2>
+                  <p class="general__description">             
+                  Buster es un koala que posee y dirige un gran teatro que está pasando por un momento muy delicado. Para arreglar la situación y recuperar la gloria perdida, organizará el concurso de canto más grande del mundo, que atrae a multitud de animales que buscan convertirse en estrellas. Entre ellos encontramos a un bromista y arrogante ratón, una elefanta adolescente que tiene pánico escénico, una cerda que padece estrés debido a su camada de 25 lechones, un joven gorila proveniente de una familia de gánsteres y una puercoespín que tiene su propia banda de rock alternativo.</p>
+
+                  <h2 class="general__subtitles">Equipo Destacado</h2>
+                  <p class="general__description--small">Garth Jennings<br/>
+                    Director, Writer
+                  </p>
+              </div>
+          
           </div>
-        </div>
       </div>
-      
+
+
       <!--
       SECCIÓN DEL REPARTO PRINCIPAL
       _________________________________________________________________________________________________________________
       -->
       <section class="wrapper cast">
         <h2 class="cast__title">Elenco Principal</h2>
-        <div class="grid">
-            <article class="cast__people grid__item palm--one-whole lap--four-twelfths desk--two-twelfths item-margin">
+        <div class="cast__content">
+            <article class="cast__people item-margin">
               <div class="cast__photo">
               </div>
 
@@ -64,7 +68,7 @@
                 <h5>Matthew McConaughey <br/> Buster Moon (voice)</h5>
               </div>
 
-            </article><article class="cast__people grid__item palm--one-whole lap--four-twelfths desk--two-twelfths item-margin">
+            </article><article class="cast__people item-margin">
               <div class="cast__photo">
               </div>
               
@@ -72,22 +76,14 @@
                 <h5>Matthew McConaughey <br/> Buster Moon (voice)</h5>
               </div>
 
-            </article><article class="cast__people grid__item palm--one-whole lap--four-twelfths desk--two-twelfths item-margin">
+            </article><article class="cast__people item-margin">
               <div class="cast__photo">
               </div>
 
               <div class="cast__names">
                 <h5>Matthew McConaughey <br/> Buster Moon (voice)</h5>
               </div>
-            </article><article class="cast__people grid__item palm--one-whole lap--four-twelfths desk--two-twelfths margin">
-              <div class="cast__photo">
-              </div>
-
-              <div class="cast__names">
-                <h5>Matthew McConaughey <br/> Buster Moon (voice)</h5>
-              </div>
-
-            </article><article class="cast__people grid__item palm--one-whole lap--four-twelfths desk--two-twelfths margin">
+            </article><article class="cast__people margin">
               <div class="cast__photo">
               </div>
 
@@ -95,7 +91,15 @@
                 <h5>Matthew McConaughey <br/> Buster Moon (voice)</h5>
               </div>
 
-            </article><article class="cast__people grid__item palm--one-whole lap--four-twelfths desk--two-twelfths">
+            </article><article class="cast__people margin">
+              <div class="cast__photo">
+              </div>
+
+              <div class="cast__names">
+                <h5>Matthew McConaughey <br/> Buster Moon (voice)</h5>
+              </div>
+
+            </article><article class="cast__people">
               <div class="cast__photo">
               </div>
               
@@ -105,6 +109,7 @@
             </article>
         </div>
       </section>
+      
 
       <!--
       SECCIÓN DE DATOS
@@ -149,42 +154,41 @@
 
       </section>
 
+
       <!--
       SECCIÓN DE RELACIONADOS
       _________________________________________________________________________________________________________________
       -->
       <div class="wrapper">
         <h5 class="wrapper__title">Relacionadas</h5>
-        <div class="grid">
-          <article class="grid__item one-half palm--one-whole margin">
-            <div class="related-items__description">
-              <div class="grid grid--full">
-                  <div class="grid__item five-twelfths width">
-                    <div class="related-items__image"></div>
-                  </div><div class="grid__item seven-twelfths width">
-                    <div class="related-items__content">
-                      <h3 class="related-items__title">Cantala!</h3>
-                      <div class="related-items__star-div">
-                        6.8<svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
-                      </div>
-                      <p class="related-items--small-font">2016 &nbsp; &nbsp; Animación, Comedia, Drama, Fa...</p>
-                      <p class="related-items--small-font related-items__p">Buster es un koala que posee y dirige un gran teatro que está pasando por un momento muy delicado. Para arreglar la situación y recuperar la gloria perdida, organizar…</p>
-                    </div>
-                    <div class="related-items__link-div">
-                      <div class="related-items__content">
-                        <a href="" class="related-items__link related-items--small-font">Más información</a>
-                      </div>
-                    </div>  
-                </div>
-              </div>
-            </div>
+        <div class="related-items">
+          <article class="related-items__article">
+                  
+                <div class="related-items__image"></div>
 
-          </article><article class="grid__item one-half palm--one-whole">
-            <div class="related-items__description">
-              <div class="grid grid--full">
-                  <div class="grid__item five-twelfths width">
-                    <div class="related-items__image related-items__image--background"></div>
-                  </div><div class="grid__item seven-twelfths width">
+                <div class="related-items__description margin">
+                  <div class="related-items__content">
+                    <h3 class="related-items__title">Cantala!</h3>
+                    <div class="related-items__star-div">
+                      6.8<svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
+                    </div>
+                    <p class="related-items--small-font">2016 &nbsp; &nbsp; Animación, Comedia, Drama, Fa...</p>
+                    <p class="related-items--small-font related-items__p">Buster es un koala que posee y dirige un gran teatro que está pasando por un momento muy delicado. Para arreglar la situación y recuperar la gloria perdida, organizar…</p>
+                  </div>
+                  <div class="related-items__link-div">
+                    <div class="related-items__content">
+                      <a href="" class="related-items__link related-items--small-font">Más información</a>
+                    </div>
+                  </div>  
+                </div>
+              
+          </article>
+
+
+          <article class="related-items__article">
+                  
+                  <div class="related-items__image related-items__image--background"></div>
+                  <div class="related-items__description">
                     <div class="related-items__content">
                       <h3 class="related-items__title">Cantala!</h3>
                       <div class="related-items__star-div">
@@ -198,12 +202,13 @@
                         <a href="" class="related-items__link related-items--small-font">Más información</a>
                       </div>
                     </div>
-                  </div>
-              </div>
-            </div>
+                </div>
+
         </article>
+
       </div>
       
+
       <!--
       SECCIÓN DE ANUNCIOS
       _________________________________________________________________________________________________________________
@@ -214,6 +219,8 @@
         <div class="adds-wrapper"></div>
       </div>
       </div>
+
+      
 
       <!--
       PIÉ DE PÁGINA
@@ -226,16 +233,16 @@
                   <div class="footer__social-media">
 
                       <span class="follow">Síguenos</span>
-                      <ul class="footer__media-list display-inline">
-                        <li class="footer__media-item display-inline"><a href="https://www.youtube.com/" target="_blank" title="Youtube"><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg></a></li>
+                      <ul class="footer__media-list">
+                        <li class="footer__media-item"><a href="https://www.youtube.com/" target="_blank" title="Youtube"><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg></a></li>
 
-                        <li class="footer__media-item display-inline"><a href="https://www.instagram.com/" target="_blank" title="Instagram"><svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg></a></li>
+                        <li class="footer__media-item"><a href="https://www.instagram.com/" target="_blank" title="Instagram"><svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg></a></li>
 
-                        <li class="footer__media-item display-inline"><a href="https://co.pinterest.com/" target="_blank" title="Pinterest"><svg class="icon icon-pinterest"><use xlink:href="#icon-pinterest"></use></svg></a></li>
+                        <li class="footer__media-item"><a href="https://co.pinterest.com/" target="_blank" title="Pinterest"><svg class="icon icon-pinterest"><use xlink:href="#icon-pinterest"></use></svg></a></li>
 
-                        <li class="footer__media-item display-inline"><a href="https://twitter.com/" target="_blank" title="Twitter"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
+                        <li class="footer__media-item"><a href="https://twitter.com/" target="_blank" title="Twitter"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
 
-                        <li class="footer__media-item display-inline"><a href="https://www.facebook.com/" target="_blank" title="Facebook"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
+                        <li class="footer__media-item footer__media-item--nomargin"><a href="https://www.facebook.com/" target="_blank" title="Facebook"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
                       </ul>
   
                   </div>
@@ -275,15 +282,12 @@
           
       </footer>
 
-    </div>
+      <!--
+      Elementos SGV
+      ********************************************************************************************************************
+      -->
 
-
-    <!--
-    Elementos SGV
-    ********************************************************************************************************************
-    -->
-    
-    <div style="display: none">
+      <div style="display: none">
         <svg style="display: none" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
           <defs>
@@ -391,6 +395,5 @@
           </defs>
         </svg>
     </div>
-    
+
   </body>
-</html>
