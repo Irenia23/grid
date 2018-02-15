@@ -630,4 +630,8 @@ ul{
   .data__table{
     font-size: .3rem;
   }
+
+  .footer__media-list{
+    flex-wrap: wrap;
+  }
 }
